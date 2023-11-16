@@ -1,0 +1,25 @@
+version: "3.9"
+
+services:           
+    dbwordpress:
+        image: mariadb:10
+        container_name: mariadb-wordpress
+        restart: unless-stopped
+        environment:
+            MARIADB_DATABASE: dbwordpress
+            MARIADB_ROOT_PASSWORD: 123456
+            MARIADB_USER: wordpress
+            MARIADB_PASSWORD: 123456
+        ports:
+            - 3307:3306            
+        volumes:
+            - mariadb_data_wordpress:/var/lib/mysql
+        command: --default-authentication-plugin=mysql_native_password            
+        networks:
+            - wordpress-net
+networks:
+    wordpress-net:
+
+volumes:
+    mariadb_data_wordpress:
+        driver: local               
