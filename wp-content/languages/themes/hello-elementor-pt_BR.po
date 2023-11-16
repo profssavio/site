@@ -2,24 +2,33 @@
 # This file is distributed under the same license as the Themes - Hello Elementor package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-08-02 15:39:42+0000\n"
+"PO-Revision-Date: 2023-11-01 11:10:53+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: GlotPress/4.0.0-alpha.6\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
 "Language: pt_BR\n"
 "Project-Id-Version: Themes - Hello Elementor\n"
 
 #. Description of the theme
 #, gp-priority: high
-msgid "A lightweight and minimalist WordPress theme for Elementor page builder."
-msgstr "Um tema WordPress leve e minimalista para o construtor de páginas Elementor."
+msgid "Hello Elementor is a lightweight and minimalist WordPress theme that was built specifically to work seamlessly with the Elementor page builder plugin. The theme is free, open-source, and designed for users who want a flexible, easy-to-use, and customizable website. The theme, which is optimized for performance, provides a solid foundation for users to build their own unique designs using the Elementor drag-and-drop site builder. Its simplicity and flexibility make it a great choice for both beginners and experienced Web Creators."
+msgstr "Hello Elementor é um tema WordPress leve e minimalista criado especificamente para se integrar perfeitamente com o Elementor, um plugin construtor de páginas. O tema é gratuito, de código aberto e projetado para usuários que desejam um site flexível, fácil de usar e personalizável. Otimizado para desempenho, o tema Hello Elementor fornece uma base sólida para usuários criarem seus próprios, e exclusivos designs, utilizando o construtor de sites de arrastar-e-soltar do Elementor. Sua simplicidade e flexibilidade o tornam uma ótima escolha, tanto para iniciantes, quanto para Criadores Web experientes."
 
 #. Theme Name of the theme
 #, gp-priority: high
 msgid "Hello Elementor"
 msgstr "Hello Elementor"
+
+#: includes/settings-functions.php:19
+msgid "Theme Settings"
+msgstr "Ajustes do Tema"
+
+#: includes/settings-functions.php:18 assets/js/hello-admin.js:103
+#: assets/js/hello-admin.js:144
+msgid "Hello Theme Settings"
+msgstr "Ajustes do Tema Hello"
 
 #. translators: %s: Link that opens Elementor's "Site Identity" panel.
 #: includes/settings/settings-footer.php:279
@@ -44,10 +53,6 @@ msgstr "O Tema Hello é um tema inicial leve que funciona perfeitamente com o pl
 #: includes/settings/settings-header.php:518
 msgid "Upgrade"
 msgstr "Atualizar"
-
-#: includes/customizer/elementor-upsell.php:78
-msgid "Activate Now"
-msgstr "Ativar agora"
 
 #: header.php:31
 msgid "Skip to content"
@@ -312,39 +317,6 @@ msgstr "Use este experimento para o design do cabeçalho e rodapé usando o Elem
 msgid "Hello Theme Header & Footer"
 msgstr "Tema Hello - Cabeçalho & Rodapé"
 
-#: includes/customizer/elementor-upsell.php:86
-msgid "Start Here"
-msgstr "Comece aqui"
-
-#: includes/customizer/elementor-upsell.php:75
-#: includes/customizer/elementor-upsell.php:83
-msgid "Set Your Header &amp; Footer"
-msgstr "Definir seu cabeçalho e rodapé"
-
-#: includes/customizer/elementor-upsell.php:68
-msgid "You need Elementor version 3.1.0 or above to create a cross-site Header and Footer."
-msgstr "Você precisa do Elementor versão 3.1.0 ou superior para criar um Cabeçalho e Rodapé para todo o site."
-
-#: includes/customizer/elementor-upsell.php:67
-#: includes/customizer/elementor-upsell.php:70
-msgid "Update Elementor"
-msgstr "Atualizar Elementor"
-
-#: includes/customizer/elementor-upsell.php:54
-msgid "Install &amp; Activate"
-msgstr "Instalar &amp; Ativar"
-
-#: includes/customizer/elementor-upsell.php:43
-#: includes/customizer/elementor-upsell.php:60
-#: includes/customizer/elementor-upsell.php:76
-#: includes/customizer/elementor-upsell.php:84
-msgid "Create a cross-site Header and Footer using Elementor & Hello theme."
-msgstr "Crie um cabeçalho e rodapé para todo o site usando Elementor e o tema Hello."
-
-#: includes/customizer-functions.php:19
-msgid "Header &amp; Footer"
-msgstr "Cabeçalho &amp; Rodapé"
-
 #: includes/admin-functions.php:133
 msgid "Get Elementor"
 msgstr "Obtenha o Elementor"
@@ -363,12 +335,11 @@ msgstr "Cabeçalho"
 msgid "Thanks for installing the Hello Theme!"
 msgstr "Agradecemos por Instalar o Tema Hello!"
 
-#: includes/admin-functions.php:49 includes/customizer/elementor-upsell.php:42
+#: includes/admin-functions.php:49
 msgid "Install Elementor"
 msgstr "Instalar o Elementor"
 
-#: includes/admin-functions.php:40 includes/customizer/elementor-upsell.php:59
-#: includes/customizer/elementor-upsell.php:62
+#: includes/admin-functions.php:40
 msgid "Activate Elementor"
 msgstr "Ativar o Elementor"
 
