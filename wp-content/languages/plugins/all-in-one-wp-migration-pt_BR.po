@@ -2,22 +2,39 @@
 # This file is distributed under the same license as the Plugins - All-in-One WP Migration - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-03-07 18:19:25+0000\n"
+"PO-Revision-Date: 2024-03-14 18:28:05+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: GlotPress/4.0.0-rc.1\n"
+"X-Generator: GlotPress/4.0.0\n"
 "Language: pt_BR\n"
 "Project-Id-Version: Plugins - All-in-One WP Migration - Stable (latest release)\n"
+
+#: lib/view/reset/index.php:39
+msgid "Reset Hub Demo"
+msgstr "Redefinir Demo do Hub"
 
 #: lib/view/reset/index.php:39
 msgid "Upgrade to Premium "
 msgstr "Atualizar para Premium "
 
+#: lib/view/reset/index.php:37
+msgid "Please note, the features displayed below are part of an image showcasing the potential of Reset Hub in its Premium version. To activate and enjoy these advanced features, <a href=\"https://servmask.com/products/unlimited-extension\" title=\"Upgrade to Premium\" target=\"_blank\">upgrade to Premium now</a>! Elevate your website management experience with these exclusive functionalities and priority support."
+msgstr "Note que os recursos exibidos abaixo são parte de uma imagem exibindo o potencial do Redefinir Hub em sua versão Premium. Para ativar e se beneficiar destes recursos avançados, <a href=\"https://servmask.com/products/unlimited-extension\" title=\"Atualize para Premium\" target=\"_blank\"> atualize para Premium agora</a>! Aprimore a experiência de gerenciamento do seu site com estas funcionalidades exclusivas e suporte prioritário."
+
 #: lib/view/reset/index.php:35
 msgid "Experience Full Functionality with Premium!"
 msgstr "Experimente funcionalidade completa com Premium!"
+
+#: lib/view/reset/index.php:34
+msgid "Star"
+msgstr "Estrela"
+
+#: lib/controller/class-ai1wm-main-controller.php:674
+#: lib/controller/class-ai1wm-main-controller.php:675
+msgid "Reset Hub"
+msgstr "Redefinir o Hub"
 
 #: lib/view/main/premium-badge.php:31
 msgid "Premium"
