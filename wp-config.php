@@ -6,7 +6,7 @@
  * O script de criação wp-config.php usa esse arquivo durante a instalação.
  * Você não precisa usar o site, você pode copiar este arquivo
  * para "wp-config.php" e preencher os valores.
- *
+ * Software restaurar backup All-in-One WP Migration
  * Este arquivo contém as seguintes configurações:
  *
  * * Configurações do banco de dados
